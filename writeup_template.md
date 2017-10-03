@@ -144,4 +144,4 @@ Here's an example result showing the heatmap from a series of frames of video, t
 
 ####1. Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
 
-I basically followed the lessons to create my pipeline. There were false positives earlier which I get rid of 
+I actually started doing lesson examples and used lots of function presented in the class. There were false positives initially which I get rid of by tweaking parameters and applying thresholds. I could see that my final window is still flickering and i could have smoothen it up.
