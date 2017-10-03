@@ -51,11 +51,25 @@ I then explored different color spaces and different `skimage.hog()` parameters 
 
 Here is an example using the `YCrCb` color space and HOG parameters of `orientations=8`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 
+
 ![Hog Features][hogFeatureImage]
+
 
 ####2. Explain how you settled on your final choice of HOG parameters.
 
-I tried various combinations of parameters and...
+It was trial and error after going through lesson several times and selected the parameters which provided the best output.
+
+My final choice of parametrs 
+
+pix_per_cell = 8
+
+cell_per_block = 2
+
+hog_channel = 'ALL' # 'ALL' # Can be 0, 1, 2, or "ALL"
+
+spatial_size = (32,32)  # Spatial binning dimensions 
+
+
 
 ####3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
