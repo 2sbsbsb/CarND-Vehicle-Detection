@@ -109,8 +109,7 @@ window size (64,64) and overallpping allowed as (0.5,0.5).
 
 I searched on two scales using YCrCb 3-channel HOG features plus spatially binned color and histograms of color in the feature vector, which provided a nice result.  Here are some example images:
 
-[testImages]: ./output_images/test_1_6_output.png
-
+![Car Position and Heat Map][testImages]
 ---
 
 ### Video Implementation
