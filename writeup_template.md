@@ -73,7 +73,26 @@ spatial_size = (32,32)  # Spatial binning dimensions
 
 ####3. Describe how (and identify where in your code) you trained a classifier using your selected HOG features (and color features if you used them).
 
-I trained a linear SVM using...
+I trained a linear SVM using the following features
+
+1. get_hog_features()
+2. bin_spatial() 
+3. color_hist()
+
+and achived the accuracy of 0.9899. It took me 78.96 seconds to train SVC. 
+
+Output registered
+
+191.83231210708618 Seconds to compare features...
+
+Using: 9 orientations, 8 pixel per cell 2 cells per block, 32 histogram bins, and (32, 32) spatial sampling
+
+Feature vector length: 8460
+
+78.96 Seconds to train SVC...
+
+Test Accuracy of SVC =  0.9899
+
 
 ###Sliding Window Search
 
